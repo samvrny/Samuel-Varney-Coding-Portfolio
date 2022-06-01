@@ -1,1 +1,1 @@
-# Samuel Varneys Proffesional Portfolio
+# Samuel Varneys Professional Portfolio
