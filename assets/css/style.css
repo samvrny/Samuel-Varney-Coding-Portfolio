@@ -22,6 +22,8 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
+    position: sticky;
+    z-index: 50;
 }
 
 header h1 {
@@ -29,6 +31,7 @@ header h1 {
     font-weight: bold;
     font-size: 38px;
     margin: 0;
+    text-shadow: 0 0 5px rgba(201, 172, 8, 0.75);
 }
 
 header a {
@@ -58,3 +61,30 @@ header nav ul li a:hover {
     color: #473bf0;
     border-radius: 15px;
 }
+
+/*end header style*/
+
+/*hero style*/
+
+.hero {
+    background-image: url("../images/resize1.jpg");
+    background-position: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 350px;
+}
+
+.hero img {
+    width: 20%;
+    border-radius: 50%;
+    border: 5px solid #cfd11a;
+    position: relative;
+    top: 0;
+    bottom: 50px;
+    
+
+}
+
