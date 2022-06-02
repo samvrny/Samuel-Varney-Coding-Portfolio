@@ -22,8 +22,6 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
-    position: sticky;
-    z-index: 50;
 }
 
 header h1 {
@@ -82,9 +80,5 @@ header nav ul li a:hover {
     border-radius: 50%;
     border: 5px solid #cfd11a;
     position: relative;
-    top: 0;
-    bottom: 50px;
-    
-
 }
 
