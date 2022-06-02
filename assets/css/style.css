@@ -7,6 +7,7 @@
 body {
     color: #0a0630;
     font-family: 'Times New Roman', Times, serif;
+    background-color: #acabed; 
 }
 
 section {
@@ -69,7 +70,7 @@ header nav ul li a {
 } 
 
 header nav ul li a:hover {
-    background: #acadbc;
+    background: #e1e425;
     color: #473bf0;
     border-radius: 15px;
 }
@@ -99,6 +100,19 @@ header nav ul li a:hover {
 /*hero style end*/
 
 /*about section style*/
+
+.about-me p {
+    line-height: 1.7;
+    background-color: #e1e425;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid #0a0630;
+    margin: 0 auto;
+    width: 75%;
+    font-size: 20px;
+
+}
 
 
 
