@@ -13,6 +13,20 @@ section {
     padding: 60px;
 }
 
+.title {
+    font-size: 50px;
+    color: #0a0630;
+    border-bottom: 3px solid #473bf0;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.flex-item {
+    display: flex;
+}
+
 /*header styles*/
 
 header {
@@ -81,4 +95,10 @@ header nav ul li a:hover {
     border: 5px solid #cfd11a;
     position: relative;
 }
+
+/*hero style end*/
+
+/*about section style*/
+
+
 
