@@ -6,7 +6,7 @@
 
 body {
     color: #0a0630;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #acabed; 
 }
 
@@ -66,7 +66,7 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 35px;
-    font-size: 1.55vw;
+    font-size: 1.75vw;
 } 
 
 header nav ul li a:hover {
@@ -91,7 +91,7 @@ header nav ul li a:hover {
 }
 
 .hero img {
-    width: 20%;
+    width: 25%;
     border-radius: 50%;
     border: 5px solid #cfd11a;
     position: relative;
@@ -112,6 +112,26 @@ header nav ul li a:hover {
     width: 75%;
     font-size: 20px;
 
+}
+
+/*about section style end*/
+
+/*footer style*/
+
+footer {
+    background-color: #e1e425;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    flex-wrap: wrap;
+
+}
+
+footer p {
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
 }
 
 
