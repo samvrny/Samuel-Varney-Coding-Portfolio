@@ -139,18 +139,70 @@ header nav ul li a:hover {
     margin: 10px;
 }
 
-.main-work h3 {
+.main-work h3, .secondary-work h3 {
     text-align: center;
     padding: 5%;
     background-color: #0a0630;
     color: #e1e425;
-    width: 40%;
-    font-size: 25px;
 }
 
-.main-work:hover {
+.main-work h3 {
+    font-size: 35px;
+    width: 50%;
+}
+
+.secondary-work h3 {
+    font-size: 25px;
+    width: 65%;
+}
+
+.placeholder1 h3, .placeholder2 h3 {
+    text-align: center;
+    padding: 5%;
+    background-color: #0a0630;
+    color: #e1e425;
+    width: 75%;
+    font-size: 20px;
+}
+
+.main-work:hover, .secondary-work:hover, .placeholder1:hover, .placeholder2:hover {
     border: solid 5px #e1e425;
 }
+
+.secondary-work {
+    width: 35%;
+    border: solid 5px #0a0630;
+    background-image: url(../images/horiseon.png);
+    background-size: cover;
+    height: 350px;
+    text-decoration: none;
+    border-radius: 15px; 
+    margin: 10px;
+}
+
+.placeholder1 {
+    width: 35%;
+    border: solid 5px #0a0630;
+    background-image: url(../images/resize1.jpg);
+    background-size: cover;
+    height: 250px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.placeholder2 {
+    width: 35%;
+    border: solid 5px #0a0630;
+    background-image: url(../images/construction.jpg);
+    background-size: cover;
+    height: 250px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
 
 /*contact section style*/
 
