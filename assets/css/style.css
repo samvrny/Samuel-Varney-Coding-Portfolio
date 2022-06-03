@@ -118,25 +118,23 @@ header nav ul li a:hover {
 
 /*about section style end*/
 
-/*footer style*/
+/*my work section style*/
 
-footer {
-    background-color: #e1e425;
+.my-work {
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 20px;
     flex-wrap: wrap;
-
+    justify-content: space-around;
 }
 
-footer p {
-    text-align: right;
-    font-style: italic;
-    font-weight: bold;
+.main-work {
+    width: 60%;
+    border: solid 5px #0a0630;
 }
 
-/*end footer style*/
+.main-work img {
+    width: 100%;
+}
 
 /*contact section style*/
 
@@ -177,4 +175,25 @@ footer p {
     color: #e1e425;
 }
 
+/*end contact me section styles*/
+
+/*footer style*/
+
+footer {
+    background-color: #e1e425;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    flex-wrap: wrap;
+
+}
+
+footer p {
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*end footer style*/
 
