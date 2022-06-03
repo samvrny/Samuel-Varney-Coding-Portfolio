@@ -91,12 +91,12 @@ header nav ul li a:hover {
 }
 
 .hero img {
-    width: 25%;
+    width: 315px;
     border-radius: 50%;
     border: 5px solid #cfd11a;
     position: relative;
     margin: -5%;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 /*hero style end*/
@@ -136,5 +136,32 @@ footer p {
     font-weight: bold;
 }
 
+/*end footer style*/
+
+/*contact section style*/
+
+.addresses {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 4%;
+    background-color: #e1e425;
+    padding: 10px;
+    border-radius: 15px;
+    border: 5px solid #0a0630;
+}
+
+.address-info {
+    margin: 10px;
+}
+
+.address-info h3 {
+    font-style: normal;
+    font-size: 25px;
+    border-bottom: 3px solid #473bf0;
+    margin: 0 auto 25px auto;
+    text-align: center;
+    width: 120%;
+}
 
 
