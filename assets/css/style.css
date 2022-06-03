@@ -153,6 +153,7 @@ footer p {
 
 .address-info {
     margin: 10px;
+    line-height: 1.75;
 }
 
 .address-info h3 {
@@ -161,7 +162,19 @@ footer p {
     border-bottom: 3px solid #473bf0;
     margin: 0 auto 25px auto;
     text-align: center;
-    width: 120%;
+    width: 100%;
+}
+
+.address-info a {
+    color: #0a0630;
+    padding: 5px;
+}
+
+.address-info a:hover {
+    text-decoration: none;
+    background-color: #473bf0;
+    border-radius: 15px;
+    color: #e1e425;
 }
 
 
