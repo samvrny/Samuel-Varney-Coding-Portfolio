@@ -135,9 +135,11 @@ header nav ul li a:hover {
     background-size: cover;
     height: 350px;
     text-decoration: none;
+    border-radius: 15px;
+    margin: 10px;
 }
 
-.first-text {
+.main-work h3 {
     text-align: center;
     padding: 5%;
     background-color: #0a0630;
