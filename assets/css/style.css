@@ -129,17 +129,32 @@ header nav ul li a:hover {
 }
 
 .main-work {
-    width: 60%;
-    border: solid 5px #0a0630;
     background-image: url(../images/runbuddy2.png);
-    background-size: cover;
+    width: 80%;
     height: 350px;
+}
+
+.secondary-work {
+    background-image: url(../images/horiseon.png);
+    width: 30%;
+    height: 350px;
+}
+
+.placeholder {
+    background-image: url(../images/construction.jpg);
+    width: 30%;
+    height: 350px;
+}
+
+.main-work, .secondary-work, .placeholder {
+    border: solid 5px #0a0630;
+    background-size: cover;
     text-decoration: none;
     border-radius: 15px;
     margin: 10px;
 }
 
-.main-work h3, .secondary-work h3 {
+.main-work h3, .secondary-work h3, .placeholder h3 {
     text-align: center;
     padding: 5%;
     background-color: #0a0630;
@@ -156,53 +171,14 @@ header nav ul li a:hover {
     width: 65%;
 }
 
-.placeholder1 h3, .placeholder2 h3 {
-    text-align: center;
-    padding: 5%;
-    background-color: #0a0630;
-    color: #e1e425;
+.placeholder h3 {
     width: 75%;
     font-size: 20px;
 }
 
-.main-work:hover, .secondary-work:hover, .placeholder1:hover, .placeholder2:hover {
+.main-work:hover, .secondary-work:hover, .placeholder:hover {
     border: solid 5px #e1e425;
 }
-
-.secondary-work {
-    width: 35%;
-    border: solid 5px #0a0630;
-    background-image: url(../images/horiseon.png);
-    background-size: cover;
-    height: 350px;
-    text-decoration: none;
-    border-radius: 15px; 
-    margin: 10px;
-}
-
-.placeholder1 {
-    width: 35%;
-    border: solid 5px #0a0630;
-    background-image: url(../images/resize1.jpg);
-    background-size: cover;
-    height: 250px;
-    text-decoration: none;
-    border-radius: 15px;
-    margin: 10px;
-}
-
-.placeholder2 {
-    width: 35%;
-    border: solid 5px #0a0630;
-    background-image: url(../images/construction.jpg);
-    background-size: cover;
-    height: 250px;
-    text-decoration: none;
-    border-radius: 15px;
-    margin: 10px;
-}
-
-
 
 /*contact section style*/
 
