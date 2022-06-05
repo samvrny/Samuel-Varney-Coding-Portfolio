@@ -253,6 +253,10 @@ footer p {
         justify-content: center;
     }
 
+    header nav ul li {
+        margin: 5px;
+    }
+    
     header nav ul li a {
         font-size: 25px;
     }
@@ -302,6 +306,10 @@ footer p {
 
     .flex-about img {
         width: 65%;
+    }
+
+    .flex-about p {
+        font-size: 17px;
     }
 
     .main-work h3, .secondary-work h3, .placeholder h3 {
