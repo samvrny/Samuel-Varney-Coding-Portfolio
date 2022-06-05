@@ -90,30 +90,31 @@ header nav ul li a:hover {
     height: 350px;
 }
 
-.hero img {
-    width: 315px;
-    border-radius: 50%;
-    border: 5px solid #cfd11a;
-    position: relative;
-    margin: -5%;
-    margin-left: 2%;
-}
-
 /*hero style end*/
 
 /*about section style*/
 
-.about-me p {
+.flex-about {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flex-about p {
     line-height: 1.7;
-    background-color: #e1e425;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
-    border-radius: 20px;
-    border: 5px solid #0a0630;
-    margin: 0 auto;
-    width: 75%;
+    margin: 25px auto 0 auto;
     font-size: 20px;
+    background-color: #e1e425;
+    border: 5px solid #0a0630;
+    border-radius: 20px;
+}
 
+.flex-about img {
+    border: 5px solid #0a0630;
+    border-radius: 50%;
+    width: 30%;
+    margin: 0 auto;
 }
 
 /*about section style end*/
@@ -130,7 +131,7 @@ header nav ul li a:hover {
 
 .main-work {
     background-image: url(../images/runbuddy2.png);
-    width: 80%;
+    width: 95%;
     height: 350px;
 }
 
@@ -163,11 +164,11 @@ header nav ul li a:hover {
 
 .main-work h3 {
     font-size: 35px;
-    width: 50%;
+    width: 45%;
 }
 
 .secondary-work h3 {
-    font-size: 25px;
+    font-size: 20px;
     width: 65%;
 }
 
@@ -196,6 +197,7 @@ header nav ul li a:hover {
 .address-info {
     margin: 10px;
     line-height: 1.75;
+    width: 40%;
 }
 
 .address-info h3 {
@@ -204,7 +206,6 @@ header nav ul li a:hover {
     border-bottom: 3px solid #473bf0;
     margin: 0 auto 25px auto;
     text-align: center;
-    width: 100%;
 }
 
 .address-info a {
