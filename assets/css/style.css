@@ -134,13 +134,18 @@ header nav ul li a:hover {
     height: 350px;
 }
 
+.tertiary-work {
+    background-image: url(../images/doggypedia.png);
+    width: 30%;
+    height: 350px;
+}
 .placeholder {
     background-image: url(../images/construction.jpg);
     width: 30%;
     height: 350px;
 }
 
-.main-work, .secondary-work, .placeholder {
+.main-work, .secondary-work, .tertiary-work, .placeholder {
     border: solid 5px #0a0630;
     background-size: cover;
     text-decoration: none;
@@ -148,7 +153,7 @@ header nav ul li a:hover {
     margin: 10px;
 }
 
-.main-work h3, .secondary-work h3, .placeholder h3 {
+.main-work h3, .secondary-work h3, .tertiary-work h3, .placeholder h3 {
     text-align: center;
     padding: 5%;
     background-color: #0a0630;
@@ -165,12 +170,12 @@ header nav ul li a:hover {
     width: 65%;
 }
 
-.placeholder h3 {
+.placeholder h3, .tertiary-work h3 {
     width: 75%;
     font-size: 20px;
 }
 
-.main-work:hover, .secondary-work:hover, .placeholder:hover {
+.main-work:hover, .secondary-work:hover, .tertiary-work:hover, .placeholder:hover {
     border: solid 5px #e1e425;
 }
 /*end my work section style*/
@@ -265,7 +270,7 @@ footer p {
         width: 80%;
     }
 
-    .secondary-work, .placeholder {
+    .secondary-work, .tertiary-work, .placeholder {
         height: 250px;
     }
 
@@ -289,7 +294,7 @@ footer p {
         flex: 0 100%;
     }
 
-    .secondary-work, .placeholder {
+    .secondary-work, .tertiary-work, .placeholder {
         flex: 0 75%;
     }
 }
@@ -312,7 +317,7 @@ footer p {
         font-size: 17px;
     }
 
-    .main-work h3, .secondary-work h3, .placeholder h3 {
+    .main-work h3, .secondary-work h3, .tertiary-work h3, .placeholder h3 {
         width: 100%;
         padding: 2%;
     }
@@ -321,7 +326,7 @@ footer p {
         height: 250px;
     }
 
-    .secondary-work, .placeholder {
+    .secondary-work, .tertiary-work, .placeholder {
         height: 150px;
     }
 
